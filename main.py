@@ -18,7 +18,7 @@ def get_photo(message):
 
 @bot.message_handler(content_types= ["audio"])
 def get_photo(message):
-    bot.send_message(message.chat.id, "Крутое трекк!")
+    bot.send_message(message.chat.id, "Крутой трек!")
 
 
 
